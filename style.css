@@ -1,16 +1,22 @@
 body{
     background-color: rgb(43, 200, 171);
+    margin: 0;
+    
 }
 
 main{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(26, 84, 84);
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
 img{
     width: 100%;
-    border: 0;
+    height: calc(100vh - 100px);
+    margin: 0;
+    object-fit: cover;
 }
